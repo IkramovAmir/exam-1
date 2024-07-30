@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    width: 1440px;
+}
+a{
+    color: inherit;
+}
+.Lasles-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Lasles-card{
+    display: flex;
+    align-items: center;
+}
+.Lasles-list{
+    display: flex;
+    gap: 50px;
+}
+.Lasles-sign{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Lasles-sign-btn{
+ padding: 5px 20px;
+ border-radius: 20px;
+ color: #F53855;
+ border: 1px solid #F53855;
+ cursor: pointer;
+} 
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+.hero-title{
+    font-size: 56px;
+    width: 600px;
+}
+.hero-desc{
+    font-size: 21px;
+    width:650px;
+    padding: 40px 0px;
+}   
+.hero-btn{
+    padding: 15px 55px;
+    border-radius: 10px;
+    
+   
+    cursor: pointer;
+/}
+.hero-btn:active{
+     background-color: #F53855;
+     color: white;
+}
+.results{
+    display: flex;
+    /* background-color: rgb(213, 99, 99); */
+    justify-content: center;
+    gap: 200px;
+    padding:80px 0px;
+    
+}
+.results-user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 4px solid rgb(166, 139, 139);
+    padding-right: 130px;
+}
+.results-location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 130px;
+    border-right: 4px solid rgb(199, 182, 182);
+
+}
+.results-server{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.advantages{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+.advantages-infos{
+    padding-top: 70px;
+
+    
+}
+.advantages-title{
+    font-size: 45px;
+    width: 500px;    
+}
+.advantages-desc{
+    font-size: 23px;
+    width: 500px;
+    padding: 40px 0px;
+}
+.advantagesitem{
+    font-size: 21px;
+    padding: 10px 0px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.free-plan{
+    
+    text-align: center;
+}
+.free-plan:hover{
+    border: 1px solid #F53855;
+    /* color: #F53855; */
+}
+.free-plan-title{
+    padding: 20px 0px;
+    text-align: center;
+}
+.free-plan-item{
+    padding: 10px 0px;
+}
+.free-plan-free{
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.free-plan-btn{
+    color: #F53855;
+    border: 1px solid #F53855;
+    padding: 5px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.free-plan-btn:active{
+    background-color: #F53855;
+    color: white;
+}
+.Network{
+    text-align: center;
+    padding: 100px 0px;
+}
+.Network-title{
+    padding: 40px 0px;
+    font-size: 30px;
+}
+.Network-desc{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.Customers{
+    text-align: center;
+}
+.Customers-title{
+    font-size: 30px;
+    padding: 40px;
+}
+.Customers-desc{
+    font-size: 20px;
+    padding-bottom: 30px;
+    
+}
+.Customers-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.Customers-card{
+    display: flex;
+    background-color: red;
+    width: 300px;
+    justify-content: space-evenly;
+}
