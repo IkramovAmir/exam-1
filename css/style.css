@@ -13,11 +13,21 @@
 a{
     color: inherit;
 }
+.Lasles{
+    /* position: relative; */
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
 .Lasles-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+    
+
+
 .Lasles-card{
     display: flex;
     align-items: center;
@@ -25,6 +35,10 @@ a{
 .Lasles-list{
     display: flex;
     gap: 50px;
+}
+.Lasles-item:hover{
+    border-bottom: 2px solid rgb(156, 130, 130);
+    color: rgb(161, 151, 138);
 }
 .Lasles-sign{
     display: flex;
@@ -38,6 +52,10 @@ a{
  border: 1px solid #F53855;
  cursor: pointer;
 } 
+.Lasles-sign-btn:active{
+    color: white;
+    background-color: #f52645;
+}
 
 .hero{
     display: flex;
@@ -165,16 +183,20 @@ a{
     padding-bottom: 40px;
 }
 .Customers{
-    text-align: center;
+    /* text-align: center; */
 }
 .Customers-title{
     font-size: 30px;
-    padding: 40px;
+    padding: 40px 600px;
+    text-align: center;
+    /* background-color: #f52645; */
 }
 .Customers-desc{
     font-size: 20px;
-    padding-bottom: 30px;
-    
+    text-align: center;
+    padding: 0px 480px;
+    padding-bottom: 70px;
+    opacity: 0.5;
 }
 .Customers-cards{
     display: flex;
@@ -182,8 +204,31 @@ a{
     gap: 50px;
 }
 .Customers-card{
-    display: flex;
-    background-color: red;
-    width: 300px;
+    /* display: flex; */
+    /* background-color: red; */
+    width: 380px;
     justify-content: space-evenly;
+    border: 2px solid rgba(132, 126, 117, 0.867);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.Customers-card:hover{
+    border: 2px solid rgba(215, 53, 3, 0.867);
+}
+@media(max-width:876px){
+  .Lasles{
+    width: 576px;
+  }
+  main{
+    width: 576px;
+  }
+}
+@media(max-width:576px){
+    .Lasles{
+        width: 276px;
+    }
+    main{width: 276px;
+
+    }
+
 }
